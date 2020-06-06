@@ -7,9 +7,9 @@ public class GameFrame extends JFrame {
 
     public GameFrame() {
 
-        setSize(500, 500);
+        setSize(900, 700);
         setLayout(null);
-        getContentPane().setBackground(Color.BLACK);
+        getContentPane().setBackground(Color.black);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         add(new GamePanel());
